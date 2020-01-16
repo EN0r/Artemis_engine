@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\windowClass">
+      <UniqueIdentifier>{62811f84-7ec8-413b-9b95-9b563cc7ac1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\windowClass">
+      <UniqueIdentifier>{d654d2d7-b3b1-4948-90aa-fc3f6f2176c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\graphics">
+      <UniqueIdentifier>{f8523ea2-bdde-4724-929e-bb6bd468b658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\graphics">
+      <UniqueIdentifier>{a11aa230-1d17-4bf4-9f39-7cffeaf3deea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\components">
+      <UniqueIdentifier>{1fd43ca6-0f95-44ba-b3a7-71719296e2e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\components">
+      <UniqueIdentifier>{496e4933-5190-4147-9d35-68bbfc2f5f8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{40d16119-2bc6-4718-af4f-b0ae4bd5dab4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Sprites">
+      <UniqueIdentifier>{c0221c41-8ce1-4ba3-ad8f-bc2ec29335b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Fonts">
+      <UniqueIdentifier>{24babef4-a8b6-49a7-b2cb-93c96d3ecca8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gameLoop">
+      <UniqueIdentifier>{d357b933-44fb-40e9-bcf1-6a0ed5b843ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input">
+      <UniqueIdentifier>{a75f80db-3ba0-4caf-b29e-5bc058472c17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\globals">
+      <UniqueIdentifier>{ed08cb28-8bd7-4eb4-9ed6-d22a7532a212}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\guiLibrary">
+      <UniqueIdentifier>{2726b7b7-0e69-4590-8f1e-45ceda8daa93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\renderLayer">
+      <UniqueIdentifier>{40461e18-aefa-4b7d-bd0e-ff1c2c92d6cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gameLoop/main">
+      <UniqueIdentifier>{4fdffce8-1c86-446e-8a4d-e60ed272620d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\networking">
+      <UniqueIdentifier>{924dd00e-e01e-46e7-a132-46b4f6e28bd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\scripts">
+      <UniqueIdentifier>{3157a947-5cd4-423c-94c9-65b2008b3d8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\required">
+      <UniqueIdentifier>{82ebbfd1-698b-4090-b216-36a95c6d31fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Editor">
+      <UniqueIdentifier>{63f9f1b9-79d8-4399-90c3-bff7dbb281d8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files\windowClass</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Source Files\gameLoop/main</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\gameLoop/main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Window.h">
+      <Filter>Header Files\windowClass</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics.h">
+      <Filter>Header Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Header Files\gameLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="guiMain.h">
+      <Filter>Header Files\guiLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="collisionFunctions.h">
+      <Filter>Header Files\globals</Filter>
+    </ClInclude>
+    <ClInclude Include="layerHandler.h">
+      <Filter>Header Files\renderLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="tileMap.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="spriteSheets.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="animFlipbook.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="kinematicBody.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="collider.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="kbdHook.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="uiComponents.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="tile.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="controllerSupport.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="vec2.h">
+      <Filter>Header Files\required</Filter>
+    </ClInclude>
+    <ClInclude Include="mouse.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.h">
+      <Filter>Header Files\globals</Filter>
+    </ClInclude>
+    <ClInclude Include="editor.h">
+      <Filter>Header Files\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="guiManager.h">
+      <Filter>Header Files\guiLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="text.h">
+      <Filter>Header Files\Editor</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="C:\Users\fanfr\AppData\Local\Temp\Rar%24DRa16728.11370\font.ttf">
+      <Filter>Assets\Fonts</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Sprites\firstTexture.jpg">
+      <Filter>Assets\Sprites</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
