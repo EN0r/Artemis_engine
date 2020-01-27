@@ -5,7 +5,7 @@ This engine is very buggy but it does not utilize much memory and has near to no
 
 ## Instructions
 
-1. Install it(Obviously).
+1. Install it.
 2. Open it in visual studio 2019(Or anything with c++ 17 support)
 3. Code it to your needs.
 4. Compile!
