@@ -154,6 +154,9 @@
     <ClInclude Include="kbdHook.h" />
     <ClInclude Include="kinematicBody.h" />
     <ClInclude Include="layerHandler.h" />
+    <ClInclude Include="levelManager.h" />
+    <ClInclude Include="luaMain.h" />
+    <ClInclude Include="math.h" />
     <ClInclude Include="mouse.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="settings.h" />
@@ -171,6 +174,10 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\Sprites\firstTexture.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="luaScripts\main.lua" />
+    <None Include="luaScripts\test.lua" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

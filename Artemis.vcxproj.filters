@@ -70,6 +70,9 @@
     <Filter Include="Header Files\Editor">
       <UniqueIdentifier>{63f9f1b9-79d8-4399-90c3-bff7dbb281d8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Assets\scripts">
+      <UniqueIdentifier>{b6118538-832b-41c3-823b-997c7242e18c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Window.cpp">
@@ -161,6 +164,15 @@
     <ClInclude Include="text.h">
       <Filter>Header Files\Editor</Filter>
     </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>Header Files\globals</Filter>
+    </ClInclude>
+    <ClInclude Include="levelManager.h">
+      <Filter>Header Files\globals</Filter>
+    </ClInclude>
+    <ClInclude Include="luaMain.h">
+      <Filter>Header Files\globals</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Font Include="C:\Users\fanfr\AppData\Local\Temp\Rar%24DRa16728.11370\font.ttf">
@@ -171,5 +183,13 @@
     <Image Include="Assets\Sprites\firstTexture.jpg">
       <Filter>Assets\Sprites</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="luaScripts\test.lua">
+      <Filter>Assets\scripts</Filter>
+    </None>
+    <None Include="luaScripts\main.lua">
+      <Filter>Header Files\scripts</Filter>
+    </None>
   </ItemGroup>
 </Project>
